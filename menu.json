@@ -1,0 +1,23 @@
+{
+    "menu" : 
+    {
+        "primi": [
+            {
+                "piatto": "pasta",
+                "prezzo": "5€"
+            },
+            {
+                "piatto": "riso",
+                "prezzo": "5€"
+            },
+            {
+                "piatto": "cous cous",
+                "prezzo": "5€"
+            },
+            {
+                "piatto": "parmigiana",
+                "prezzo": "5€"
+            }
+        ]
+    }
+}

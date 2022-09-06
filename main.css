@@ -31,3 +31,12 @@ hr {
     width: 30%;
     text-align: center;
   } 
+
+h4 {
+    flex: 1 1 0%;
+} 
+
+strong {
+    padding-left: 5em;
+    flex: 2 1 0%;
+  }
