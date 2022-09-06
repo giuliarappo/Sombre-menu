@@ -1,3 +1,5 @@
+import { crea_nuovo_div, creaPrimo, creaSecondo, creaContorno } from "./creaDiv.js";
+
 let menu;
 let categoria;
 let antipasto1;
@@ -11,6 +13,7 @@ function caricaMenu(ilFileJson) {
         primi = menu.primi;
         console.log("menu importato!!");
         visualizzaMenu()
+
         
     }).fail(function(){
         console.log("An error has occurred.");
@@ -30,6 +33,12 @@ function visualizzaMenu() {
 
 $(document).ready(function () {
     caricaMenu("menu.json"); 
+    const nuovoAntipasto = new crea_nuovo_div(".primi", "<div>Primi Prova</div>", "schede px-4 py-2");
+    console.log(nuovoAntipasto.aggiungi_div);
+    creaAntipasto();
+    creaPrimo();
+    creaSecondo();
+    creaContorno();
 });
 
 
