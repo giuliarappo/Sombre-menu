@@ -1,3 +1,6 @@
+import { crea_nuovo_div, creaPrimo, creaSecondo, creaContorno } from "./creaDiv.js";
+
+
 let menu;
 let categoria;
 let antipasto1;
