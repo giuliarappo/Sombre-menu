@@ -1,6 +1,13 @@
 {
     "menu" : 
     {
+        "antipasti": [
+            {
+                "piatto": "Tagliere affettati",
+                "prezzo": "5€"
+            }
+        ],
+
         "primi": [
             {
                 "piatto": "Spaghetto al pomodoro",
