@@ -3,19 +3,41 @@
     {
         "primi": [
             {
-                "piatto": "pasta",
+                "piatto": "Spaghetto al pomodoro",
                 "prezzo": "5€"
             },
             {
-                "piatto": "riso",
+                "piatto": "Risotto ai funghi",
                 "prezzo": "5€"
             },
             {
-                "piatto": "cous cous",
+                "piatto": "Penna all'amatriciana",
                 "prezzo": "5€"
             },
             {
-                "piatto": "parmigiana",
+                "piatto": "Tortellini panna e prosciutto",
+                "prezzo": "5€"
+            }
+        ],
+
+        "secondi": [
+            {
+                "piatto": "Arrosto di maiale",
+                "prezzo": "5€"
+            },
+            {
+                "piatto": "Cotoletta con patate",
+                "prezzo": "5€"
+            }
+        ],
+
+        "contorni": [
+            {
+                "piatto": "Zucchine",
+                "prezzo": "5€"
+            },
+            {
+                "piatto": "Patate",
                 "prezzo": "5€"
             }
         ]
