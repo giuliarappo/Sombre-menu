@@ -55,6 +55,9 @@ function visualizzaMenu() {
         htmlElementPiatto.innerText = contorni[index].piatto;
         htmlElementPrezzo.innerText = contorni[index].prezzo;
     }
+
+    // nasconde dettagli
+    $(".dettagli").css("display", "none");
 }
 
 
