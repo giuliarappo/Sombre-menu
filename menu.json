@@ -4,48 +4,52 @@
         "antipasti": [
             {
                 "piatto": "Tagliere affettati",
-                "prezzo": "5€"
+                "prezzo": "7€"
+            },
+            {
+                "piatto": "Crostini",
+                "prezzo": "3€"
             }
         ],
 
         "primi": [
             {
                 "piatto": "Spaghetto al pomodoro",
-                "prezzo": "5€"
+                "prezzo": "8€"
             },
             {
                 "piatto": "Risotto ai funghi",
-                "prezzo": "5€"
+                "prezzo": "8€"
             },
             {
                 "piatto": "Penna all'amatriciana",
-                "prezzo": "5€"
+                "prezzo": "8€"
             },
             {
                 "piatto": "Tortellini panna e prosciutto",
-                "prezzo": "5€"
+                "prezzo": "8€"
             }
         ],
 
         "secondi": [
             {
                 "piatto": "Arrosto di maiale",
-                "prezzo": "5€"
+                "prezzo": "10€"
             },
             {
                 "piatto": "Cotoletta con patate",
-                "prezzo": "5€"
+                "prezzo": "10€"
             }
         ],
 
         "contorni": [
             {
                 "piatto": "Zucchine",
-                "prezzo": "5€"
+                "prezzo": "3,5€"
             },
             {
                 "piatto": "Patate",
-                "prezzo": "5€"
+                "prezzo": "3,5€"
             }
         ]
     }
