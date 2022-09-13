@@ -1,17 +1,22 @@
-class crea_nuovo_div {
+"use script";
+
+class creaNuovoDiv {
     constructor(div, nuovoDiv, classe){
         this.div = div;
         this.nuovoDiv = nuovoDiv;
         this.classe = classe
     }
 
-    get aggiungi_div() {
+    get aggiungiDiv() {
+        console.log("aggiunto!!")
         $(div).append(this.nuovoDiv);
-        div.addClass(this.classe);
+        this.nuovoDiv.addClass(this.classe);
     }
 }
 
+const div = new creaNuovoDiv(".primi", $("<h1>Primi Prova</h1>"), "schede px-4 py-2");
 
+/*
 function creaPrimo() {
     let div = $(".primi");
     let nuovoDiv = $("<div>Primi Prova</div>");
@@ -34,4 +39,21 @@ function creaContorno() {
 }
 
 
-export { crea_nuovo_div, creaPrimo, creaSecondo, creaContorno };
+
+function crea_div(_div, _nuovo_div, _classe) {
+    return {
+        _div,
+        
+    }
+}
+
+const crea_div (_div, _nuovo_div, _classe) = {
+    div = div,
+    nuovo_div : function() {
+        console.log("creo un nuovo div!");
+        $(_div).append(_nuovo_div);
+        _nuovo_div.addClass("schede px-4 py-2");
+    }
+}
+*/
+export { div };

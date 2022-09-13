@@ -1,4 +1,6 @@
-import { crea_nuovo_div, creaPrimo, creaSecondo, creaContorno } from "./creaDiv.js";
+"use script";
+
+import { div } from "./crea_div.js";
 
 
 let menu;
@@ -34,12 +36,9 @@ function visualizzaMenu() {
 
 $(document).ready(function () {
     caricaMenu("menu.json"); 
-    const nuovoAntipasto = new crea_nuovo_div(".primi", "<div>Primi Prova</div>", "schede px-4 py-2");
-    console.log(nuovoAntipasto.aggiungi_div);
-    creaAntipasto();
-    creaPrimo();
-    creaSecondo();
-    creaContorno();
+    div.aggiungiDiv;
+    //const nuovoAntipasto = new crea_nuovo_div(".primi", "<div>Primi Prova</div>", "schede px-4 py-2");
+    //console.log(nuovoAntipasto.aggiungi_div);
 });
 
 
