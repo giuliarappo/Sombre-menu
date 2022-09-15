@@ -35,14 +35,14 @@
             },
             {
                 "piatto": "Crostini",
-                "prezzo": "3€"
+                "prezzo": "4€"
             }
         ],
 
         "primi": [
             {
                 "piatto": "Spaghetto al pomodoro",
-                "prezzo": "8€"
+                "prezzo": "7€"
             },
             {
                 "piatto": "Risotto ai funghi",
@@ -61,11 +61,11 @@
         "secondi": [
             {
                 "piatto": "Arrosto di maiale",
-                "prezzo": "10€"
+                "prezzo": "9€"
             },
             {
                 "piatto": "Cotoletta con patate",
-                "prezzo": "10€"
+                "prezzo": "9€"
             }
         ],
 
