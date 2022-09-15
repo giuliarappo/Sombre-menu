@@ -1,6 +1,33 @@
 {
     "menu" : 
     {
+        "panini": [
+            {
+                "piatto": "Tonno, pomodoro e maionese",
+                "prezzo": "3,5€"
+            },
+            {
+                "piatto": "Cotto e fontina",
+                "prezzo": "3,5€"
+            },
+            {
+                "piatto": "Crudo e fontina",
+                "prezzo": "3,5€"
+            },
+            {
+                "piatto": "Crudo, pomodoro e insalata",
+                "prezzo": "3,5€"
+            },
+            {
+                "piatto": "Mortadella, pomodoro e granella di pistacchio",
+                "prezzo": "3,5€"
+            },
+            {
+                "piatto": "Porchetta",
+                "prezzo": "4€"
+            }
+        ],
+        
         "antipasti": [
             {
                 "piatto": "Tagliere affettati",
@@ -50,6 +77,45 @@
             {
                 "piatto": "Patate",
                 "prezzo": "3,5€"
+            }
+        ],
+
+        "bibite": [
+            {
+                "bibita": "Lattina",
+                "prezzo": "2€"
+            },
+            {
+                "bibita": "Calice di vino",
+                "prezzo": "2€"
+            },
+            {
+                "bibita": "0,5l di vino",
+                "prezzo": "6€"
+            },
+            {
+                "bibita": "1l di vino",
+                "prezzo": "10€"
+            },
+            {
+                "bibita": "Bottiglia di vino",
+                "prezzo": "15€"
+            },
+            {
+                "bibita": "Birra Icnusa 33cl",
+                "prezzo": "3€"
+            },
+            {
+                "bibita": "Birra Moretti 66cl",
+                "prezzo": "3,5€"
+            },
+            {
+                "bibita": "Birra doppio malto 33cl",
+                "prezzo": "3,5€"
+            },
+            {
+                "bibita": "Cocktail",
+                "prezzo": "6€"
             }
         ]
     }

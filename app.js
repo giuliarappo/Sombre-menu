@@ -1,18 +1,22 @@
 let menu;
 let categoria;
+let panini;
 let primi;
 let antipasti;
 let secondi;
 let contorni;
+let bibite;
 
 function caricaMenu(ilFileJson) {
     $.getJSON(ilFileJson, function( JSON ) {
         menu = JSON.menu;
         categoria = Object.getOwnPropertyNames(JSON.menu);
+        panini = menu.panini;
         primi = menu.primi;
         antipasti = menu.antipasti;
         secondi = menu.secondi;
         contorni = menu.contorni;
+        bibite = menu.bibite;
         console.log("menu importato!!");
         visualizzaMenu()
 
@@ -23,6 +27,14 @@ function caricaMenu(ilFileJson) {
 }
 
 function visualizzaMenu() {
+    //panini
+    for (let index = 0; index < panini.length; index++) {
+        let htmlElementPiatto = document.getElementsByClassName("panino")[index];
+        let htmlElementPrezzo = document.getElementsByClassName("prezzoPanino")[index];
+        htmlElementPiatto.innerText = panini[index].piatto;
+        htmlElementPrezzo.innerText = panini[index].prezzo;
+    }
+
     //antipasti
     for (let index = 0; index < antipasti.length; index++) {
         let htmlElementPiatto = document.getElementsByClassName("antipasto")[index];
@@ -54,6 +66,14 @@ function visualizzaMenu() {
         let htmlElementPrezzo = document.getElementsByClassName("prezzoContorno")[index];
         htmlElementPiatto.innerText = contorni[index].piatto;
         htmlElementPrezzo.innerText = contorni[index].prezzo;
+    }
+
+    //bibite
+    for (let index = 0; index < bibite.length; index++) {
+        let htmlElementPiatto = document.getElementsByClassName("bibita")[index];
+        let htmlElementPrezzo = document.getElementsByClassName("prezzoBibita")[index];
+        htmlElementPiatto.innerText = bibite[index].bibita;
+        htmlElementPrezzo.innerText = bibite[index].prezzo;
     }
 
     // nasconde dettagli
